@@ -7,6 +7,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 
+	<!-- testing -->
 	<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>-->
 	<!--<link rel="stylesheet" type="text/css" href="css/owl.transitions.css"/>-->
 	<!--<link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>-->
@@ -287,27 +288,25 @@
 </body>
 
 <script type="text/javascript">
-	const loadStyleSheet = src => {
-		
-		if(document.createStyleSheet){
-	      	document.createStylesheet(src);	
-	    }else{
-	      	const stylesheet = document.createElement('link');
-	      	stylesheet.href = src;
-	      	stylesheet.type = 'text/css';
-	      	stylesheet.rel = 'stylesheet';
-	      	document.getElementsByTagName('head')[0].appendChild(stylesheet);
-	    }
-    }
-	
-	window.onload = function(){
-		loadStyleSheet('./css/bootstrap.css');
-		loadStyleSheet('./css/owl.transitions.css');
-		loadStyleSheet('./css/owl.carousel.css');
-		loadStyleSheet('./css/animate.css');
-		loadStyleSheet('./css/main.css');
-    }
+const loadStyleSheet = src => {
+  if (document.createStyleSheet) {
+    document.createStylesheet(src);
+  } else {
+    const stylesheet = document.createElement('link');
+    stylesheet.href = src;
+    stylesheet.type = 'text/css';
+    stylesheet.rel = 'stylesheet';
+    document.getElementsByTagName('head')[0].appendChild(stylesheet);
+  }
+};
 
+window.onload = function() {
+  loadStyleSheet('./css/bootstrap.css');
+  loadStyleSheet('./css/owl.transitions.css');
+  loadStyleSheet('./css/owl.carousel.css');
+  loadStyleSheet('./css/animate.css');
+  loadStyleSheet('./css/main.css');
+};
 </script>
 
 <script type="text/javascript" src="js/jquery.js"></script>
