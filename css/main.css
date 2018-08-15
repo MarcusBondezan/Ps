@@ -101,17 +101,17 @@ header {
 .life-ball {
   left: 90px;
   top: 20px;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   position: absolute;
   background-color: #bf1616;
-  box-shadow: 45px 0 0 0 #0c0c80, 90px 0 0 0 #f7f7f4;
+  box-shadow: 40px 0 0 0 #0c0c80, 80px 0 0 0 #f7f7f4;
 }
-header .logo {
+/* header .logo {
   display: table-cell;
   margin: 45px 100px 0 0;
-}
+} */
 header .logo img {
   width: 200px;
   border-radius: 5px 20px 5px;
