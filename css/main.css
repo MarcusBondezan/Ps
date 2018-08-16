@@ -93,25 +93,18 @@ header {
 }
 header {
   position: relative;
-  height: 150px;
-  background-image: linear-gradient(#cdcebbba, #252323);
+  height: 135px;
+  background: linear-gradient(
+    to right,
+    rgba(55, 55, 55, 1) 0%,
+    rgba(170, 170, 170, 1) 50%,
+    rgba(230, 230, 230, 1) 75%,
+    rgba(252, 252, 252, 1) 100%
+  );
+  /* background-image: linear-gradient(white, #252323); */
   /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%); */
   /* change the calc height to a percentage height to get alternate responsive behavior */
 }
-.life-ball {
-  left: 90px;
-  top: 20px;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  position: absolute;
-  background-color: #bf1616;
-  box-shadow: 40px 0 0 0 #0c0c80, 80px 0 0 0 #f7f7f4;
-}
-/* header .logo {
-  display: table-cell;
-  margin: 45px 100px 0 0;
-} */
 header .logo img {
   width: 200px;
   border-radius: 5px 20px 5px;
