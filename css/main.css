@@ -398,60 +398,6 @@ a.app_link {
 .about .features_list ul li span {
   display: inline-block;
 }
-/* App features */
-.app_features {
-  width: 100%;
-  padding: 100px 0 20px 0;
-  background-color: #41c17d;
-  background-image: -moz-linear-gradient(
-    bottom,
-    #248888 0%,
-    #248888 0.27%,
-    #40c27d 99.46%,
-    #40c27d 100%
-  );
-  background-image: -o-linear-gradient(
-    bottom,
-    #248888 0%,
-    #248888 0.27%,
-    #40c27d 99.46%,
-    #40c27d 100%
-  );
-  background-image: -webkit-linear-gradient(
-    bottom,
-    #248888 0%,
-    #248888 0.27%,
-    #40c27d 99.46%,
-    #40c27d 100%
-  );
-  background-image: linear-gradient(
-    bottom,
-    #248888 0%,
-    #248888 0.27%,
-    #40c27d 99.46%,
-    #40c27d 100%
-  );
-}
-.app_features h1 {
-  color: #fff;
-  font-family: 'open_semibold', Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  margin: 50px 0 0 0;
-  word-break: break-word;
-}
-.app_features p {
-  color: #e0f7eb;
-  font-family: 'open_regular', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  margin: 30px 0 0 0;
-  line-height: 28px;
-}
-.app_features .details {
-  margin-bottom: 80px;
-}
-.app_features .details:nth-child(3n + 1) {
-  clear: both;
-}
 /* Testimonials section */
 .testimonials {
   padding: 100px 0;
@@ -491,81 +437,71 @@ a.app_link {
   font-family: 'open_regular', Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
-.#tslider {
-  text-align: center !important;
-  position: relative !important;
-}
-#tslider .owl-controls {
-  display: block;
-  width: 100%;
-  text-align: center;
-  margin-top: 40px;
-  padding: 0;
-}
-#tslider .owl-controls .owl-prev,
-#tslider .owl-controls .owl-next {
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-  background: url('../img/nav_arrow.png') no-repeat;
-  text-indent: -200px;
-  overflow: hidden;
-  transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-}
-#tslider .owl-controls .owl-prev {
-  background-position: 0 0;
-}
-#tslider .owl-controls .owl-next {
-  background-position: -33px 0;
-  margin-left: 40px;
-}
-#tslider .owl-controls .owl-prev:hover,
-#tslider .owl-controls .owl-next:hover {
-  cursor: pointer;
-  background: url('../img/nav_arrow_hover.png') no-repeat;
-}
-#tslider .owl-controls .owl-prev:hover {
-  background-position: 0 0;
-}
-#tslider .owl-controls .owl-next:hover {
-  background-position: -33px 0;
-}
 /* Subscription section */
-.sub_box {
-  width: 100%;
-  padding: 100px 0;
-  text-align: center;
+.sub_box_red {
   background-image: -moz-linear-gradient(
     bottom,
-    #248888 0%,
-    #248888 0.27%,
-    #40c27d 99.46%,
-    #40c27d 100%
+    #fffcfc00 0%,
+    #ff8d8d00 0.27%,
+    #bf1616 99.46%,
+    #bf1616 100%
   );
   background-image: -o-linear-gradient(
     bottom,
-    #248888 0%,
-    #248888 0.27%,
-    #40c27d 99.46%,
-    #40c27d 100%
+    #fffcfc00 0%,
+    #ff8d8d00 0.27%,
+    #bf1616 99.46%,
+    #bf1616 100%
   );
   background-image: -webkit-linear-gradient(
     bottom,
-    #248888 0%,
-    #248888 0.27%,
-    #40c27d 99.46%,
-    #40c27d 100%
+    #fffcfc00 0%,
+    #ff8d8d00 0.27%,
+    #bf1616 99.46%,
+    #bf1616 100%
   );
-  background-image: linear-gradient(
+  background-image: -webkit-linear-gradient(
     bottom,
-    #248888 0%,
-    #248888 0.27%,
-    #40c27d 99.46%,
-    #40c27d 100%
+    #fffcfc00 0%,
+    #ff8d8d00 0.27%,
+    #bf1616 99.46%,
+    #bf1616 100%
   );
+}
+.sub_box_blue {
+  background-image: -moz-linear-gradient(
+    bottom,
+    #fffcfc00 0%,
+    #ff8d8d00 0.27%,
+    #0c0c80 99.46%,
+    #0c0c80 100%
+  );
+  background-image: -o-linear-gradient(
+    bottom,
+    #fffcfc00 0%,
+    #ff8d8d00 0.27%,
+    #0c0c80 99.46%,
+    #0c0c80 100%
+  );
+  background-image: -webkit-linear-gradient(
+    bottom,
+    #fffcfc00 0%,
+    #ff8d8d00 0.27%,
+    #0c0c80 99.46%,
+    #0c0c80 100%
+  );
+  background-image: -webkit-linear-gradient(
+    bottom,
+    #fffcfc00 0%,
+    #ff8d8d00 0.27%,
+    #0c0c80 99.46%,
+    #0c0c80 100%
+  );
+}
+.sub_box {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
 }
 .sub_box .cta_text {
   color: #fff;
@@ -641,7 +577,7 @@ a.app_link {
 }
 /* Footer */
 footer {
-  padding: 100px 0;
+  padding: 30px 0;
   text-align: center;
 }
 footer .app_platform li {
@@ -717,7 +653,8 @@ footer .copyright a {
     padding-left: 0;
     padding-right: 0;
     text-align: center;
-  } /* Featured on section */
+  }
+  /* Featured on section */
   .featured_on {
     padding: 25px 0 5px 0 !important;
   }
