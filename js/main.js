@@ -118,13 +118,27 @@ $(document).ready(function() {
 
 function changeContactSubscrition() {
   var subBox = document.getElementById('sub_box');
+  var subEmpresa = document.getElementById('sub_empresa');
+  var subPalestrante = document.getElementById('sub_palestrante');
 
   //Se for Palestrante
   if (subBox.classList.contains('sub_box_red')) {
     subBox.classList.remove('sub_box_red');
     subBox.classList.add('sub_box_blue');
+
+    subEmpresa.classList.add('animated');
+    subEmpresa.classList.add('fadeIn');
+
+    subEmpresa.hidden = false;
+    subPalestrante.hidden = true;
   } else {
     subBox.classList.add('sub_box_red');
     subBox.classList.remove('sub_box_blue');
+
+    subPalestrante.classList.add('animated');
+    subPalestrante.classList.add('fadeIn');
+
+    subEmpresa.hidden = true;
+    subPalestrante.hidden = false;
   }
 }

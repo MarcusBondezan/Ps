@@ -312,7 +312,7 @@ a.app_link {
 }
 /* About section */
 .about {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 .about .iphone {
   max-width: 339px;
@@ -597,13 +597,19 @@ footer .copyright a {
   color: #565555;
 }
 /* Responsive CSS */
-@media (max-width: 360px) {
+@media (max-width: 390px) {
+  header {
+    height: 100px;
+  }
   .featured_on li {
     display: block;
     width: 100%;
   }
+  .about img {
+    display: none;
+  }
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   /* Header */
   header .logo {
     margin-right: 0;
@@ -653,15 +659,13 @@ footer .copyright a {
     padding-left: 0;
     padding-right: 0;
     text-align: center;
-  }
-  /* Featured on section */
+  } /* Featured on section */
   .featured_on {
     padding: 25px 0 5px 0 !important;
   }
   .featured_on ul li {
     margin-bottom: 25px !important;
-  }
-  /* About Section */
+  } /* About Section */
   .about .features_list {
     text-align: center;
     margin: 0;
@@ -688,6 +692,9 @@ footer .copyright a {
   }
   .sub_box #mc_submit {
     margin-top: 20px;
+  }
+  .about img {
+    display: none;
   }
 }
 @media (max-width: 1024px) {

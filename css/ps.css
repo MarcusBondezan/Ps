@@ -23,6 +23,42 @@
   width: 300px;
 }
 
+figure.big-ball.red-ball span.big-text-ball {
+  position: relative;
+  top: 115px;
+  right: 20px;
+  color: white;
+  font-size: 2.7em;
+  word-wrap: break-word;
+  display: block;
+}
+
+figure.big-ball.blue-ball span.big-text-ball {
+  position: relative;
+  top: 115px;
+  color: white;
+  font-size: 2.5em;
+  word-wrap: break-word;
+  display: block;
+}
+
+figure.big-ball.red-ball span.small-text-ball {
+  position: relative;
+  top: 115px;
+  right: -50px;
+  color: white;
+  font-size: 1em;
+  word-wrap: break-word;
+}
+
+figure.big-ball.blue-ball span.small-text-ball {
+  position: relative;
+  top: 115px;
+  color: white;
+  font-size: 1em;
+  word-wrap: break-word;
+}
+
 .logo {
   width: 50%;
   background: transparent;
@@ -40,6 +76,37 @@
   font-size: 3em;
   letter-spacing: 1.7rem;
   color: white;
+}
+
+.big-balls-bg div.logo {
+  width: 50%;
+  background: transparent;
+  display: inline-block;
+  position: absolute;
+  top: 115px;
+  right: 120px;
+}
+
+.big-balls-bg div.logo .logo-letters {
+  font-family: Verdana;
+  font-size: 2em;
+  letter-spacing: 1.2rem;
+  color: #525151;
+}
+
+.big-balls-bg div.logo .logo-balls {
+  left: -46px;
+  position: relative;
+}
+
+.big-balls-bg div.logo .ball {
+  height: 18px;
+  width: 18px;
+  margin: 0;
+}
+
+.big-balls-bg div.logo .white-ball {
+  background-color: #dadac6;
 }
 
 .section-tipos {
@@ -118,4 +185,45 @@
 
 .shadow {
   box-shadow: 5px 15px 10px 0 #888888;
+}
+
+#sub_box .box-data-sub label {
+  color: white;
+  font-size: 16px;
+}
+
+/* Responsive CSS */
+@media (max-width: 390px) {
+  .logo-letters {
+    font-size: 1.75em;
+    letter-spacing: 1.1rem;
+  }
+
+  section.hero .caption h1 {
+    font-size: 1.5em;
+    position: relative;
+    left: -70px;
+    margin-right: 50px;
+  }
+
+  #play_video span {
+    font-size: 12px;
+  }
+
+  .sub_box div.text-right {
+    text-align: left;
+  }
+
+  .logo .ball {
+    height: 15px;
+    width: 15px;
+  }
+
+  .big-balls-bg figure.big-ball {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1000px) {
+}
+@media (max-width: 1024px) {
 }
