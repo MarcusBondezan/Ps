@@ -176,7 +176,9 @@ header .social li:first-child {
   height: 560px;
   background: url('../img/hero.jpg') no-repeat fixed center center;
   background-size: cover;
+  filter: grayscale(30%);
 }
+
 .hero .caption {
   position: absolute;
   max-width: 550px;
@@ -190,7 +192,7 @@ header .social li:first-child {
 .hero .caption h1 {
   color: #525252;
   font-family: 'open_bold', Helvetica, Arial, sans-serif;
-  font-size: 30px;
+  font-size: 2.4em;
   font-weight: bold;
   word-break: break-word;
   line-height: 40px;
@@ -198,9 +200,9 @@ header .social li:first-child {
 .hero .caption p {
   color: #6d6c6c;
   font-family: 'open_regular', Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 1.4em;
   line-height: 30px;
-  margin: 15px 0 35px 0;
+  margin: 25px 0;
 }
 #slider .caption p {
   margin: 0;
@@ -702,7 +704,8 @@ footer .copyright a {
     position: absolute;
     max-width: 430px;
     margin-left: 80px;
-    top: 50%;
+    top: 40%;
+    left:0;
     transform: translate(0, -50%);
     -webkit-transform: translate(0, -50%);
     -moz-transform: translate(0, -50%);
