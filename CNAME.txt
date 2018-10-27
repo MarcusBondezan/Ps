@@ -1,0 +1,1 @@
+$ echo "palestart.com.br" > CNAME
