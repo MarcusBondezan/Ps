@@ -32,6 +32,31 @@
   font-style: normal;
 }
 
+.play-midia {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  line-height: 95px;
+  height: 100px;
+  width: 100px;
+  background-color: #860406d4;
+  position: relative;
+  bottom: 110px;
+  left: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 3.2em;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.5s ease;
+}
+
+.play-midia:hover {
+  background-color: #0a1350e3;
+  text-decoration: none;
+  color: white;
+}
+
 section,
 footer {
   background: #fffcfc;
